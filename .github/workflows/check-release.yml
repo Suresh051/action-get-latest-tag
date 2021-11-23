@@ -1,9 +1,7 @@
 name: Check Release
 
 on:
-  pull_request_target:
-    types:
-      - labeled
+  push:
 
 jobs:
   release:
